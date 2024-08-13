@@ -9,6 +9,65 @@
 
         <title>BMO Newsletter E-Mail</title>
 
+        <style>
+            /* Outlook specific reset styles (extra fixes to make email render properly) */
+            body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+            table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+            img { -ms-interpolation-mode: bicubic; }
+
+            /* Fixes addresses turning into links for Apple Devices */
+            #id1 #id2 a[x-apple-data-detectors]{
+            color: inherit !important;
+            text-decoration: inherit !important;
+            }
+
+            /* desktop */
+            @media only screen and (min-width: 600px) {
+                .container{
+                    width: 480px !important;
+                }
+            }
+            /* mobile */
+            @media only screen and (max-width: 480px) {
+                .container{
+                    width: 100% !important;
+                }
+                .header{
+                    width: 100% !important;
+                }
+                .discount{
+                    width: 100% !important;
+                }
+                .airmiles{
+                    width: 100% !important;
+                }
+                .savings{
+                    width: 100% !important;
+                }
+                .shellmiles{
+                    width: 100% !important;
+                }
+                .three-steps-header{
+                    width: 100% !important;
+                }
+                .three-steps-content{
+                    width: 100% !important;
+                }
+                .learn-more{
+                    width: 100% !important;
+                }
+                .contact{
+                    width: 100% !important;
+                }
+                .cpl{
+                    width: 100% !important;
+                }
+                .footer-row{
+                    width: 100% !important;
+                }
+            }
+        </style>
+
     </head>
 
     <body style="margin:0; padding:0; background-color:#F2F2F2;font-family:Arial,Helvetica,sans-serif">
@@ -168,7 +227,7 @@
                             <!--Start Shell/AirMiles Row-->
                             <tr>
                                 <td>
-                                    <table class="header" width="600" align="center" cellspacing="0" cellpadding="0" border="0" style="background-color: white;" role="presentation">
+                                    <table class="shellmiles" width="600" align="center" cellspacing="0" cellpadding="0" border="0" style="background-color: white;" role="presentation">
                                         <tr>
                                             <td valign="top" align="center" style="padding:0 0 30px 0">
                                                 <img style="width: 130px;" src="https://i.ibb.co/bvwSH4M/airmiles-min.png" alt="SHELL/AIRMILES LOGO">
@@ -181,7 +240,7 @@
                             <!--Start 3Steps Header Row-->
                             <tr>
                                 <td>
-                                    <table class="3-steps-header" width="600" align="center" cellspacing="0" cellpadding="0" border="0" style="background-color: white;" role="presentation">
+                                    <table class="three-steps-header" width="600" align="center" cellspacing="0" cellpadding="0" border="0" style="background-color: white;" role="presentation">
                                         <tr>
                                             <td valign="top" align="center" style="font-size:25px;padding: 0 0 24px 0 ;line-height:1.2em;font-weight:400;color:#414141">
                                                 Start saving at Shell in 3 easy steps:
@@ -194,7 +253,7 @@
                             <!--Start 3Steps Content Row-->
                             <tr>
                                 <td>
-                                    <table class="3-steps-content" width="600" align="center" cellspacing="0" cellpadding="0" border="0" style="background-color: white;" role="presentation">
+                                    <table class="three-steps-content" width="600" align="center" cellspacing="0" cellpadding="0" border="0" style="background-color: white;" role="presentation">
                                         <tr>
                                             <td style="padding: 3px 0 0 20px;">
                                                 <img style="width: 25px;" src="https://i.ibb.co/y5P323p/number1-min.png" alt="NUMBER 1 PHOTO">
@@ -259,7 +318,7 @@
                                         <tr>
                                             <td valign="top" align="left" style="padding: 27px 0 27px 20px;font-size:15px;line-height:1.2em;color:#559bc6">
                                                 <a style="text-decoration:none;line-height:1.2em;color:#ffffff" href="#">Contact Us</a>
-                                                <span> &nbsp;&nbsp; | &nbsp;&nbsp; </span>
+                                                <span> &nbsp;&nbsp; | &nbsp;&nbsp; </span> <!--NBSP is used here to create a space between two words without going to the next line-->
                                                 <a style="text-decoration:none;line-height:1.2em;color:#ffffff" href="#">Book an Appointment</a>
                                                 <span> &nbsp;&nbsp; | &nbsp;&nbsp; </span>
                                                 <a style="text-decoration:none;line-height:1.2em;color:#ffffff" href="#">Find a Branch</a>
