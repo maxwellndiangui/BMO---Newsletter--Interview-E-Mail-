@@ -1,10 +1,10 @@
-# Introduction to BMO Newsletter Email
+# Introduction to BMO Promotional Email
 
  [![](https://github.com/maxwellndiangui/BMO-Newsletter-Email/blob/main/img/bmo-email.png)](https://maxwellndiangui.github.io/Bmo-Newsletter-Email.github.io/)
 
 ## Description
 
- A responsive newsletter email for "BMO Group" built using HTML and CSS.
+ A responsive promotional email for "BMO Group" built using HTML and CSS.
 
 ## Compatibility
 
