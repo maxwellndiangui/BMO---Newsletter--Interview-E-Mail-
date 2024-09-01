@@ -1,6 +1,6 @@
 # Introduction to BMO Promotional Email
 
- [![](https://github.com/maxwellndiangui/BMO-Newsletter-Email/blob/main/img/bmo-email.png)](https://maxwellndiangui.github.io/Bmo-Newsletter-Email.github.io/)
+ [![](https://github.com/maxwellndiangui/BMO-Newsletter-Email/blob/main/img/bmo-email.png)](https://maxwellndiangui.github.io/Bmo-Email.github.io/)
 
 ## Description
 
@@ -17,7 +17,7 @@
 
 ## Live Demo
 
- https://maxwellndiangui.github.io/Bmo-Newsletter-Email.github.io/
+ https://maxwellndiangui.github.io/Bmo-Email.github.io/
  
 ## Authors
 
