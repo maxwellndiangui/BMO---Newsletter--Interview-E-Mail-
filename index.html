@@ -28,46 +28,29 @@
                 }
             }
             /* mobile */
-            @media only screen and (max-width: 480px) {
-                .container{
+            @media only screen and (max-width: 500px) {
+                .container, .header, .discount, .airmiles, .savings, 
+                .shellmiles, .three-steps-header, .three-steps-content,
+                .learn-more, .contact, .cpl, .footer-row {
                     width: 100% !important;
+                    padding: 0 !important; /* Remove padding to prevent overflow */
                 }
-                .header{
-                    width: 100% !important;
+                img {
+                    height: auto !important;
                 }
-                .discount{
-                    width: 100% !important;
+                .cpl { /*Need to fix this according to the site - This is what is causing the email to not work on the minimized screen*/
                 }
-                .airmiles{
-                    width: 100% !important;
+                .contact-text1 {
+                    font-size: 13px !important;
                 }
-                .savings{
-                    width: 100% !important;
+                .contact-text2 {
+                    font-size: 13px !important;
                 }
-                .shellmiles{
-                    width: 100% !important;
+                .contact-text3 {
+                    font-size: 13px !important;
                 }
-                .three-steps-header{
-                    width: 100% !important;
-                }
-                .three-steps-content{
-                    width: 100% !important;
-                }
-                .learn-more{
-                    width: 100% !important;
-                }
-                .contact{
-                    width: 100% !important;
-                }
-                .cpl{
-                    width: 100% !important;
-                }
-                .footer-row{
-                    width: 100% !important;
-                }
-                
-
             }
+
         </style>
 
     </head>
@@ -316,11 +299,11 @@
                                     <table class="contact" width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="background-color: #0079c1;" role="presentation">
                                         <tr>
                                             <td valign="top" align="left" style="padding: 27px 0 27px 20px;font-size:15px;line-height:1.2em;color:#559bc6 !important">
-                                                <a style="text-decoration:none;line-height:1.2em;color:#ffffff" href="#">Contact Us</a>
+                                                <a class="contact-text1" style="text-decoration:none;line-height:1.2em;color:#ffffff" href="#">Contact Us</a>
                                                 <span> &nbsp;&nbsp; | &nbsp;&nbsp; </span> <!--NBSP is used here to create a space between two words without going to the next line-->
-                                                <a style="text-decoration:none;line-height:1.2em;color:#ffffff" href="#">Book an Appointment</a>
+                                                <a class="contact-text2" style="text-decoration:none;line-height:1.2em;color:#ffffff" href="#">Book an Appointment</a>
                                                 <span> &nbsp;&nbsp; | &nbsp;&nbsp; </span>
-                                                <a style="text-decoration:none;line-height:1.2em;color:#ffffff" href="#">Find a Branch</a>
+                                                <a class="contact-text3" style="text-decoration:none;line-height:1.2em;color:#ffffff" href="#">Find a Branch</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -348,7 +331,7 @@
                                                             <table width="100%" align="left" cellpadding="0" cellspacing="0" border="0">
                                                                 <tr>
                                                                     <td width="20" valign="bottom" style="width:20px"></td>
-                                                                    <td width="560" valign="top" style="min-width:560px;width:560px">
+                                                                    <td width="560" valign="top" style="width:560px">
                                                                         <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
                                                                             <tr>
                                                                                 <td valign="top" style="padding: 28px 0 0 0">
